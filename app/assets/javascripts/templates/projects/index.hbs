@@ -1,0 +1,20 @@
+<table class="table">
+  <thead>
+    <tr>
+      <td>ID</td>
+      <td>Name</td>
+      <td>Discription</td>
+      <td></td>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each controller}}
+      <tr>
+        <td>{{id}}</td>
+        <td>{{#link-to 'project' this}} {{name}} {{/link-to}}</td>
+        <td>{{description}}</td>
+        <td><button class="btn btn-default" {{action delete this}}>Delete</button></td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

@@ -1,6 +1,3 @@
-# http://emberjs.com/guides/models/defining-a-store/
+EmberTodo.ApplicationAdapter = DS.ActiveModelAdapter.extend()
 
-PlayingWithEmber.Store = DS.Store.extend
-  revision: 11
-  adapter: DS.RESTAdapter.create()
-
+EmberTodo.ApplicationSerializer = DS.ActiveModelSerializer.extend()

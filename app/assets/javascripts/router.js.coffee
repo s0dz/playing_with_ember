@@ -1,5 +1,7 @@
-# For more information see: http://emberjs.com/guides/routing/
+EmberTodo.Router.reopen
+  location: 'history'
 
-PlayingWithEmber.Router.map ()->
-  # @resource('posts')
-
+EmberTodo.Router.map ()->
+  @resource 'projects', ->
+    @route 'new'
+  @resource 'project', path: 'projects/:project_id'

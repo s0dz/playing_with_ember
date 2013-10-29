@@ -12,9 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require turbolinks
 //= require handlebars
 //= require ember
 //= require ember-data
 //= require_self
 //= require playing_with_ember
-PlayingWithEmber = Ember.Application.create();
+
+EmberTodo = Ember.Application.create();
+
+//= require_tree .
