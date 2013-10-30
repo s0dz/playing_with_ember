@@ -19,6 +19,6 @@
 //= require_self
 //= require playing_with_ember
 
-EmberTodo = Ember.Application.create();
+PlayingWithEmber = Ember.Application.create();
 
 //= require_tree .

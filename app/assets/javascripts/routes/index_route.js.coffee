@@ -1,3 +1,3 @@
-EmberTodo.IndexRoute = Ember.Route.extend
+PlayingWithEmber.IndexRoute = Ember.Route.extend
   redirect: ->
     @transitionTo('projects')

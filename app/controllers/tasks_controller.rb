@@ -1,8 +1,10 @@
 class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy]
 
+  respond_to :json
+
   def index
-    render json: Task.find(params[:ids])
+    render json: Task.all
   end
 
   def create

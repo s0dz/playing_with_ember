@@ -1,4 +1,4 @@
-EmberTodo.ProjectController = Ember.ObjectController.extend
+PlayingWithEmber.ProjectController = Ember.ObjectController.extend
   newTask: ''
   actions:
     createNewTask: ->

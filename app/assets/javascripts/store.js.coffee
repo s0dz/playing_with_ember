@@ -1,3 +1,3 @@
-EmberTodo.ApplicationAdapter = DS.ActiveModelAdapter.extend()
+PlayingWithEmber.ApplicationAdapter = DS.ActiveModelAdapter.extend()
 
-EmberTodo.ApplicationSerializer = DS.ActiveModelSerializer.extend()
+PlayingWithEmber.ApplicationSerializer = DS.ActiveModelSerializer.extend()

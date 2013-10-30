@@ -1,7 +1,8 @@
-EmberTodo.Router.reopen
+PlayingWithEmber.Router.reopen
   location: 'history'
 
-EmberTodo.Router.map ()->
+PlayingWithEmber.Router.map ()->
   @resource 'projects', ->
     @route 'new'
-  @resource 'project', path: 'projects/:project_id'
+  @resource 'project', path: 'projects/:project_id',
+  @resource 'tasks'

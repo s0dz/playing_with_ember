@@ -1,4 +1,4 @@
-EmberTodo.ProjectsIndexRoute = Ember.Route.extend
+PlayingWithEmber.ProjectsIndexRoute = Ember.Route.extend
 
   actions:
     delete: (project) ->

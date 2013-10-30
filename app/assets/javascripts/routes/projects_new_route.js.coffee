@@ -1,4 +1,4 @@
-EmberTodo.ProjectsNewRoute = Ember.Route.extend
+PlayingWithEmber.ProjectsNewRoute = Ember.Route.extend
   model: ->
     @store.createRecord 'project'
 

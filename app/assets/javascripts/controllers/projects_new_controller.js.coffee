@@ -1,4 +1,4 @@
-EmberTodo.ProjectsNewController = Ember.ObjectController.extend
+PlayingWithEmber.ProjectsNewController = Ember.ObjectController.extend
   actions:
     save: ->
       #https://github.com/emberjs/data/issues/1275
