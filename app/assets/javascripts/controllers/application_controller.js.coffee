@@ -1,1 +1,0 @@
-PlayingWithEmber.ApplicationController = Ember.Controller.extend()

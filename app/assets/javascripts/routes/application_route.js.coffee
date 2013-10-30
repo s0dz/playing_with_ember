@@ -1,1 +1,0 @@
-PlayingWithEmber.ApplicationRoute = Ember.Route.extend()
