@@ -4,7 +4,7 @@
       <tr {{bind-attr class="completed"}}>
         <td>{{input type=checkbox checked=completed}}</td>
         <td>{{name}}</td>
-        <td><button class="btn btn-default" {{action deleteTask this}}>Delete</button></td>
+        <td><button class="btn btn-default" {{action delete this}}>Delete</button></td>
       </tr>
     {{/each}}
   </tbody>
